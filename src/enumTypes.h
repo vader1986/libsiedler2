@@ -109,7 +109,9 @@ namespace libsiedler2
         OT_Tree2_Begin      = 0xB0, // info: 0xC4
         OT_Tree2_End        = 0xB7,
         OT_Palm_Begin       = 0xF0, // info: 0xC4
-        OT_Palm_End         = 0xF7
+        OT_Palm_End         = 0xF7,
+        OT_Fortress         = 0x2F,
+        OT_DeadTree         = 0x05
     };
     
     /**
@@ -122,6 +124,7 @@ namespace libsiedler2
         OI_Stone2           = 0xCD,
         OI_TreeOrPalm       = 0xC4,
         OI_Palm             = 0xC5,
+        OI_Landscape        = 0xC8, // landscape objects
         OI_HeadquarterMask  = 0x80  // used in combination with object
                                     // type 0x00-0x06 for player number
     };
