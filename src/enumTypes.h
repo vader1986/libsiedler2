@@ -110,7 +110,12 @@ namespace libsiedler2
         OT_Tree2_End        = 0xB7,
         OT_Palm_Begin       = 0xF0, // info: 0xC4
         OT_Palm_End         = 0xF7,
-        OT_Fortress         = 0x2F,
+        OT_Gate             = 0x16,
+        OT_BrokenShip       = 0x15,
+        OT_BrokenFortress   = 0x2F,
+        OT_BrokenWatchtower = 0x2E,
+        OT_BrokenGuardhouse = 0x2D,
+        OT_Tent             = 0x2C,
         OT_DeadTree         = 0x05
     };
     
