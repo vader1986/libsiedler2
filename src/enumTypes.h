@@ -116,7 +116,16 @@ namespace libsiedler2
         OT_BrokenWatchtower = 0x2E,
         OT_BrokenGuardhouse = 0x2D,
         OT_Tent             = 0x2C,
-        OT_DeadTree         = 0x05
+        OT_DeadTree_Begin   = 0x05,
+        OT_DeadTree_End     = 0x06,
+        OT_Bush_Begin       = 0x0E,
+        OT_Bush_End         = 0x14,
+        OT_Cactus_Begin     = 0x0C,
+        OT_Cactus_End       = 0x0D,
+        OT_Mushroom_Begin   = 0x00,
+        OT_Mushroom_End     = 0x01,
+        OT_DecStone_Begin   = 0x02,
+        OT_DecStone_End     = 0x04
     };
     
     /**
